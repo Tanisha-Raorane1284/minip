@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Support</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image:url('header.png');
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: red;
+            width: 200px;
+            position: fixed;
+            height: 100%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 0;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        /* Add more CSS styles as needed */
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height:fit-content;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blood Donation Support</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#social">Social Networks</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events Calendar</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Contact form and information go here -->
+        </section>
+
+        <section id="social">
+            <h2>Social Networks</h2>
+            <!-- Links to social media profiles go here -->
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <!-- Add your gallery photos here -->
+                <img src="bd1.jpeg" alt="Image 1">
+                <img src="bd2.jpeg" alt="Image 2">
+                <img src="bd3.jpeg" alt="Image 3">
+                <img src="bd4.jpeg" alt="Image 4">
+                
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Events Calendar</h2>
+            <!-- Display upcoming events and campaigns here -->
+        </section>
+
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <!-- Embed a Google Calendar or another calendar service here -->
+            <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_URL_HERE" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+    </div>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+    <script>
+        // Add your JavaScript code here
+        // You can use JavaScript to add interactivity to your webpage.
+    </script>
+</body>
+</html>
